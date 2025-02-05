@@ -15,12 +15,30 @@ body {
 }
 
 header {
-    background-color: #2C3E50 ;
-    color: #ECF0F1;
+    background-color: rgb(51, 51, 51);
     font-family: Arial, sans-serif;
-    text-align: end;
+    color: #ffffff;
+    font-weight: bold;
     position: relative;
     z-index: 1;
+}
+
+header a {
+    color: #ffffff !important;
+}
+
+header h6 {
+    margin-left: 5%;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.nombre_empresa {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 footer {
