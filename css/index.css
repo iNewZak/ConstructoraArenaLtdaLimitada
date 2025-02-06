@@ -23,6 +23,14 @@ body {
     text-align: center;
 }
 
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-color: white;
+}
+
 .navbar-nav {
     display: flex;
     flex-direction: row !important;
@@ -44,7 +52,8 @@ body {
     background-color: #ECF0F1;
 }
 
-.letra, .letra1 {
+.letra,
+.letra1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -76,4 +85,22 @@ body {
     color: #ffffff !important;
     font-family: 'Times New Roman', Times, serif !important;
     font-weight: 900 !important;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        ;
+    }
 }
