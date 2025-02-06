@@ -11,82 +11,88 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a href="index.html"><img src="https://inewzak.github.io/ConsultoraArenaSPA/img/logo_inmobiliaria2.png"
-                        alt="logo" class="logo"></a>
-                <a href="index.html" class="nombre_empresa">Constructora Arena LTDA Limitada</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Nuestros Socios</a>
-                            <ul class="dropdown-menu">
-                                <h6>Constructoras</h6>
-                                <li><a class="dropdown-item"
-                                        href="https://inewzak.github.io/ConstructoraArenaLtdaLimitada/">
-                                        Arena LTDA Limitada</a></li>
-                                <li><a class="dropdown-item"
-                                        href="https://inewzak.github.io/ConstructoraCorralonesSPA/">
-                                        Corralones SPA</a></li>
-                                <li><a class="dropdown-item" href="https://inewzak.github.io/ConstructoraLasBrisasSPA/">
-                                        Las
-                                        Brisas SPA</a></li>
-                                <li><a class="dropdown-item" href="https://inewzak.github.io/ConstructoraPttSPA/"> PTT
-                                        SPA</a>
-                                </li>
-                                <li><a class="dropdown-item" href="https://inewzak.github.io/ConstructoraRapelSPA/">
-                                        Rapel
-                                        SPA</a>
-                                </li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <h6>Importadora</h6>
-                                <li><a class="dropdown-item"
-                                        href="https://inewzak.github.io/ImportadoraSanVicenteSPA/">San Vicente SPA</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <div class="container-fluid fondo blurred-background2 color3">
-        <div class="container">
+    <div class="imagen">
+        <div class="container head">
             <div class="row">
-                <div class="col-md-3 col-12">
+                <div class="col-md-12 col-6" style="display: flex; align-items: flex-end; justify-content: center;">
+                    <a href="index.html" class="text-white text-end">
+                        <img src="/img/logo_arenailimitada.png" alt="logo" class="logo"></a>
+                    <a href="index.html" class="text-white" style="text-decoration: none;">Arenas LTDA Limitada</a>
                 </div>
-                <div class="col-md-9 col-12">
-                    <div class="titulo">
-                        <h1 class="letra">Bienvenidos a</h1>
-                        <h1 class="letra1"><strong>Constructora Arena LTDA Limitada</strong></h1>
+                <div class="col-md-12 col-6">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse show" id="navbarNav">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Nuestros Socios
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <h6 class="dropdown-header">Constructoras</h6>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Arena LTDA Limitada</a></li>
+                                    <li><a class="dropdown-item" href="#">Corralones SPA</a></li>
+                                    <li><a class="dropdown-item" href="#">Las Brisas SPA</a></li>
+                                    <li><a class="dropdown-item" href="#">PTT SPA</a></li>
+                                    <li><a class="dropdown-item" href="#">Rapel SPA</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <h6 class="dropdown-header">Importadora</h6>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">San Vicente SPA</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
                     </div>
-                    <p class="negro" style="padding-bottom: 60px;">Ofrecemos nuestros servicios para mejorar e innovar
-                        en la construccion de plazas y areas
-                        verdes.
-                    </p>
                 </div>
             </div>
         </div>
+        <div class="container pt-5">
+            <div class="text-center">
+                <h1 class="info_title">Soluciones en <br> Obras Viales</h1>
+                <div class="row">
+                    <div class="col-md-3 col-12"></div>
+                    <div class="col-md-6 col-12">
+                        <p class="text-white">Somos un equipo de expertos en la construcción de obras viales y
+                            pavimentación,
+                            ofreciendo soluciones
+                            de infraestructura de alta calidad para el desarrollo de carreteras y caminos. Nos
+                            comprometemos
+                            a
+                            crear espacios de tránsito seguros, duraderos y sostenibles, que fomenten el progreso de las
+                            comunidades y faciliten la conexión entre puntos clave, siempre priorizando la eficiencia y
+                            el
+                            respeto por el medio ambiente.</p>
+                    </div>
+                    <div class="col-md-3 col-12"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5">
+        dadawdawd
     </div>
 
     <div class="whatsapp-button">
@@ -154,6 +160,8 @@
 
     <!-- Scripts de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
