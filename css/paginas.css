@@ -49,6 +49,9 @@ footer {
     padding: 10px 0;
 }
 
+.degradado {
+    background: linear-gradient(to bottom, #efefef, #103c5c);
+}
 
 .color {
     color: #FFFFFF;

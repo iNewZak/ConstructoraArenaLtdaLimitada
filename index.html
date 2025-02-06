@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <div class="imagen">
-        <div class="container head">
+    <div class="espacio">
+        <div class="container head ">
             <div class="row">
                 <div class="col-md-12 col-6 d-flex align-items-center justify-content-center">
                     <a href="index.html" class="text-white text-center">
@@ -35,7 +35,8 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="index.html" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Inicio</a>
+                                    <a class="nav-link text-white" href="index.html" data-bs-toggle="collapse"
+                                        data-bs-target=".navbar-collapse.show">Inicio</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown"
@@ -46,23 +47,50 @@
                                         <li>
                                             <h6 class="dropdown-header">Constructoras</h6>
                                         </li>
-                                        <li><a class="dropdown-item" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Arena LTDA Limitada</a></li>
-                                        <li><a class="dropdown-item" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Corralones SPA</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://inewzak.github.io/ConstructoraCorralonesSPA/">
+                                                Corralones SPA</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://inewzak.github.io/ConstructoraLasBrisasSPA/">
+                                                Las Brisas SPA</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://inewzak.github.io/ConstructoraPttSPA/"> PTT
+                                                SPA</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="https://inewzak.github.io/ConstructoraRapelSPA/">
+                                                Rapel
+                                                SPA</a></li>
+                                        <li>
+                                            <h6 class="dropdown-header">Consultora</h6>
+                                        </li>
+                                        <li><a class="dropdown-item"
+                                                href="https://inewzak.github.io/ConsultoraArenaSPA/">
+                                                Arena SPA</a>
+                                        </li>
+                                        <li>
+                                            <h6 class="dropdown-header">Importadora</h6>
+                                        </li>
+                                        <li><a class="dropdown-item"
+                                                href="https://inewzak.github.io/ImportadoraSanVicenteSPA/">San Vicente
+                                                SPA</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="nosotros.html" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Nosotros</a>
+                                    <a class="nav-link text-white" href="nosotros.html" data-bs-toggle="collapse"
+                                        data-bs-target=".navbar-collapse.show">Nosotros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="contacto.html" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contacto</a>
+                                    <a class="nav-link text-white" href="contacto.html" data-bs-toggle="collapse"
+                                        data-bs-target=".navbar-collapse.show">Contacto</a>
                                 </li>
                             </ul>
                         </div>
                     </nav>
-                </div>                
+                </div>
             </div>
         </div>
-        <div class="container pt-5">
+        <div class="container">
             <div class="text-center">
                 <h1 class="info_title">Soluciones en <br> Obras Viales</h1>
                 <div class="row">
@@ -85,9 +113,29 @@
         </div>
     </div>
 
-    <div class="container p-5">
-        dadawdawd
+    <div class="container-fluid fondo_blanco degradado text-white">
+        <div class="container">
+            <div class="row text-center">
+                <h3>Nuestros Servicios</h3>
+                <div class="col-md-6">
+                    <h4>algo</h4>
+                </div>
+                <div class="col-md-6">
+                    <h4>algo</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <h3>Nuestros Servicios</h3>
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+        </div>
     </div>
+
 
     <div class="whatsapp-button">
         <a href="https://wa.me/+56977798555" target="_blank" title="Chat con nosotros en WhatsApp">
@@ -155,7 +203,7 @@
         document.addEventListener("DOMContentLoaded", function () {
             let navLinks = document.querySelectorAll(".navbar-nav .nav-link");
             let navbarCollapse = document.querySelector(".navbar-collapse");
-    
+
             navLinks.forEach(function (link) {
                 link.addEventListener("click", function () {
                     if (navbarCollapse.classList.contains("show")) {
@@ -166,4 +214,5 @@
         });
     </script>
 </body>
+
 </html>

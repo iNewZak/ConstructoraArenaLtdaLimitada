@@ -1,5 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url("https://c.pxhere.com/images/40/3f/ab3b82814ee7067c12e3e72a606e-1624088.jpg!d");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
 }
 
 .head {
@@ -8,14 +13,19 @@ body {
     color: black !important;
 }
 
-.imagen {
-    background-image: url("https://c.pxhere.com/images/40/3f/ab3b82814ee7067c12e3e72a606e-1624088.jpg!d");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+.espacio {
     padding-top: 100px;
     padding-bottom: 100px;
-    opacity: 0.7;
+}
+
+.fondo_blanco {
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.navbar-toggler {
+    border: 5px solid rgb(0, 0, 0) !important;
 }
 
 .navbar {
@@ -28,15 +38,7 @@ body {
 }
 
 .navbar-collapse {
-    z-index: 1050; 
-}
-
-.navbar-custom .nav-link {
-    color: white;
-}
-
-.navbar-custom .navbar-toggler-icon {
-    background-color: white;
+    z-index: 1050;
 }
 
 .navbar-nav {
@@ -48,29 +50,6 @@ body {
 
 .nav-item {
     padding: 0 15px;
-}
-
-.titulo {
-    color: black;
-    padding: 60px;
-    text-align: center;
-}
-
-.color1 {
-    background-color: #ECF0F1;
-}
-
-.letra,
-.letra1 {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.letra {
-    font-size: 50px;
-}
-
-.letra1 {
-    font-size: 60px;
 }
 
 .whatsapp-button {
@@ -93,6 +72,10 @@ body {
     color: #ffffff !important;
     font-family: 'Times New Roman', Times, serif !important;
     font-weight: 900 !important;
+}
+
+.dropdown-header {
+    color: rgb(0, 0, 0) !important;
 }
 
 @media (max-width: 767px) {
