@@ -19,8 +19,16 @@ body {
 }
 
 .navbar {
+    z-index: 1000;
+}
+
+.navbar {
     width: 100%;
     text-align: center;
+}
+
+.navbar-collapse {
+    z-index: 1050; 
 }
 
 .navbar-custom .nav-link {
