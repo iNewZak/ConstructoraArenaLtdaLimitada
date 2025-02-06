@@ -68,6 +68,15 @@ body {
     width: 150px;
 }
 
+.imginfo {
+    height: 100px;
+    width: 100px;
+}
+
+.negrita{
+    font-weight: 900;
+}
+
 .info_title {
     color: #ffffff !important;
     font-family: 'Times New Roman', Times, serif !important;
