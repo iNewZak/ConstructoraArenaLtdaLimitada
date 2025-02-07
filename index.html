@@ -16,14 +16,21 @@
 
 <body>
     <div class="espacio">
-        <div class="container head ">
+        <div class="container head">
             <div class="row">
-                <div class="col-md-12 col-6 d-flex align-items-center justify-content-center">
-                    <a href="index.html" class="text-white text-center">
-                        <img src="/img/logo_arenailimitada.png" alt="logo" class="logo">
-                    </a>
-                    <a href="index.html" class="text-white"
-                        style="text-decoration: none; font-size: 1.5rem; font-weight: bold;">Arenas LTDA Limitada</a>
+                <div class="col-md-12 col-6 d-flex justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 col-12 text-center">
+                            <a href="index.html" class="text-white text-end">
+                                <img src="https://inewzak.github.io/ConstructoraArenaLtdaLimitada/img/logo_arenailimitada.png" alt="logo" class="logo">
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-12 titulopc">
+                            <a href="index.html" class="text-white"
+                                style="text-decoration: none; font-size: 1.5rem; font-weight: bold;">Arenas LTDA
+                                Limitada</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-12 col-6 text-center justify-content-center align-content-center"
                     style="display: flex; align-items: flex-end;">
@@ -56,7 +63,7 @@
                     </nav>
                 </div>
                 <div class="collapse" id="collapseExample">
-                    <div class="row socios">
+                    <div class="row socios p-1">
                         <div class="col-md-4 col-12">
                             <h6 class="dropdown-header">Constructoras</h6>
                             <a class="dropdown-item" href="https://inewzak.github.io/ConstructoraCorralonesSPA/">
@@ -79,7 +86,6 @@
                             <a class="dropdown-item" href="https://inewzak.github.io/ImportadoraSanVicenteSPA/">San
                                 Vicente
                                 SPA</a>
-
                             </ul>
                         </div>
                     </div>
@@ -200,20 +206,5 @@
             </p>
         </div>
     </footer>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            let navLinks = document.querySelectorAll(".navbar-nav .nav-link");
-            let navbarCollapse = document.querySelector(".navbar-collapse");
-
-            navLinks.forEach(function (link) {
-                link.addEventListener("click", function () {
-                    if (navbarCollapse.classList.contains("show")) {
-                        new bootstrap.Collapse(navbarCollapse).hide();
-                    }
-                });
-            });
-        });
-    </script>
 </body>
-
 </html>

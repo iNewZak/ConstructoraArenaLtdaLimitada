@@ -20,6 +20,14 @@ body h3 {
 .espacio {
     padding-top: 100px;
     padding-bottom: 100px;
+    position: relative;
+}
+
+.navbar-collapse {
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .fondo_blanco {
@@ -40,6 +48,7 @@ body h3 {
     width: 100%;
     text-align: center;
     z-index: 1050 !important;
+    justify-content: flex-end !important;
 }
 
 .socios h6 {
@@ -62,10 +71,6 @@ body h3 {
 
 a[aria-expanded="true"] .icon {
     transform: rotate(180deg);
-}
-
-.navbar-collapse {
-    z-index: 1050;
 }
 
 .navbar-nav {
@@ -121,9 +126,18 @@ a[aria-expanded="true"] .icon {
         margin: 10px 0;
     }
 
+    .espacio {
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+
     .logo {
-        height: 50px;
-        width: 50px;
+        height: 120px;
+        width: auto;
         ;
+    }
+
+    .titulopc {
+        align-content: start;
     }
 }
