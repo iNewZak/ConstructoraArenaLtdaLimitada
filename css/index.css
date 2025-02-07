@@ -14,7 +14,7 @@ body h3 {
 .head {
     font-weight: bold;
     z-index: 1;
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .espacio {
@@ -29,7 +29,7 @@ body h3 {
 }
 
 .navbar-toggler {
-    border: 5px solid rgb(0, 0, 0) !important;
+    border: 5px solid rgb(255, 255, 255) !important;
 }
 
 .navbar {
@@ -40,6 +40,28 @@ body h3 {
     width: 100%;
     text-align: center;
     z-index: 1050 !important;
+}
+
+.socios h6 {
+    color: #ffffff !important;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.socios a {
+    color: #ffffff !important;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.icon {
+    height: 15px;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+a[aria-expanded="true"] .icon {
+    transform: rotate(180deg);
 }
 
 .navbar-collapse {
@@ -85,11 +107,6 @@ body h3 {
 .info_title {
     color: #ffffff !important;
     font-family: 'Times New Roman', Times, serif !important;
-    font-weight: 900 !important;
-}
-
-.dropdown-header {
-    color: rgb(0, 0, 0) !important; 
     font-weight: 900 !important;
 }
 
