@@ -7,6 +7,16 @@ body {
     margin: 0;
 }
 
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Lo envía al fondo */
+}
+
 body h3 {
     font-weight: 800;
 }
@@ -21,6 +31,16 @@ body h3 {
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
+}
+
+.video-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .navbar-collapse {
