@@ -9,12 +9,14 @@
     margin: 0;
 }
 
-body p, li {
+body p,
+li {
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
 }
 
-body h3, h1 {
+body h3,
+h1 {
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #103c5c;
@@ -28,8 +30,23 @@ body h1 {
     margin-bottom: 100px;
 }
 
+.card {
+    background-color: rgba(128, 128, 128, 0.5) !important;
+}
 
-.mision, .vision { 
+.card p {
+    color: #ffffff !important;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.card h3 {
+    color: #103c5c;
+    font-size: 30px;
+}
+
+.mision,
+.vision {
     display: flex;
     background-size: cover;
     background-position: center;
@@ -44,7 +61,8 @@ body h1 {
     font-weight: 800;
 }
 
-.mision p, .vision p{ 
+.mision p,
+.vision p {
     font-weight: 900;
     color: black;
 }
@@ -60,13 +78,14 @@ body h1 {
     z-index: 1;
 }
 
-.mision, .vision {
+.mision,
+.vision {
     position: relative;
     z-index: 2;
 }
 
 .mision {
- background-image: url("/img/mision.png");
+    background-image: url("/img/mision.png");
 }
 
 .vision {
