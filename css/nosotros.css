@@ -1,5 +1,5 @@
 .quienessomos {
-    background-image: url("/img/topografia.png");
+    background-image: url("https://inewzak.github.io/ConstructoraArenaLtdaLimitada/img/topografia.png");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -85,11 +85,11 @@ body h1 {
 }
 
 .mision {
-    background-image: url("/img/mision.png");
+    background-image: url("https://inewzak.github.io/ConstructoraArenaLtdaLimitada/img/mision.png");
 }
 
 .vision {
-    background-image: url("/img/vision.png");
+    background-image: url("https://inewzak.github.io/ConstructoraArenaLtdaLimitada/img/vision.png");
 }
 
 .icon {
