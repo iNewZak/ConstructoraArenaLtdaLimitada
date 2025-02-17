@@ -128,3 +128,18 @@ footer a {
     backdrop-filter: blur(2px);
     color: white;
 }
+
+.dropdown-item {
+    color: #ffffff !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #335e7d !important;
+    color: white !important;
+}
+
+.dropdown-item:active {
+    background-color: #335e7d !important;
+    color: white !important;
+}
