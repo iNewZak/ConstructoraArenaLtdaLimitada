@@ -91,3 +91,9 @@ body h1 {
 .vision {
     background-image: url("/img/vision.png");
 }
+
+.icon {
+    height: 15px;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+}

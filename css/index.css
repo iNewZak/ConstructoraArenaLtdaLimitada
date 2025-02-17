@@ -124,6 +124,11 @@ a[aria-expanded="true"] .icon {
     font-weight: 900;
 }
 
+.img_proyectos {
+    height: 300px;
+    width: 400px;
+}
+
 .info_title {
     color: #ffffff !important;
     font-family: 'Times New Roman', Times, serif !important;
